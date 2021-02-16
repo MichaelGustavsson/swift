@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA18A29425DBDAF70034283C /* commentProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA18A29325DBDAF70034283C /* commentProtocol.swift */; };
+		EA2E17F525D3C63800A73EB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E17F425D3C63800A73EB5 /* AppDelegate.swift */; };
+		EA2E17F725D3C63800A73EB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E17F625D3C63800A73EB5 /* SceneDelegate.swift */; };
+		EA2E17FC25D3C63800A73EB5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2E17FA25D3C63800A73EB5 /* Main.storyboard */; };
+		EA2E17FE25D3C63A00A73EB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA2E17FD25D3C63A00A73EB5 /* Assets.xcassets */; };
+		EA2E180125D3C63A00A73EB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA2E17FF25D3C63A00A73EB5 /* LaunchScreen.storyboard */; };
+		EA2E180D25D3D03F00A73EB5 /* VehicleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E180C25D3D03F00A73EB5 /* VehicleModel.swift */; };
+		EA2E181025D3D08C00A73EB5 /* VehicleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E180F25D3D08C00A73EB5 /* VehicleProtocol.swift */; };
+		EA2E181325D3D15000A73EB5 /* ValuationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E181225D3D15000A73EB5 /* ValuationModel.swift */; };
+		EA2E181625D3D18400A73EB5 /* ValuationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E181525D3D18400A73EB5 /* ValuationProtocol.swift */; };
+		EA2E181A25D3D4B300A73EB5 /* ValuationListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E181925D3D4B300A73EB5 /* ValuationListViewController.swift */; };
+		EA2E181D25D3DE4400A73EB5 /* ValuationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E181C25D3DE4400A73EB5 /* ValuationDetailViewController.swift */; };
+		EA2E182025D3E4C700A73EB5 /* ValuationListDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E181F25D3E4C700A73EB5 /* ValuationListDelegate.swift */; };
+		EA2E182725D3F04500A73EB5 /* AddValuationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2E182625D3F04500A73EB5 /* AddValuationViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA18A29325DBDAF70034283C /* commentProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commentProtocol.swift; sourceTree = "<group>"; };
+		EA2E17F125D3C63800A73EB5 /* Cardealer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cardealer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2E17F425D3C63800A73EB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA2E17F625D3C63800A73EB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EA2E17FB25D3C63800A73EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA2E17FD25D3C63A00A73EB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA2E180025D3C63A00A73EB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA2E180225D3C63A00A73EB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA2E180C25D3D03F00A73EB5 /* VehicleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleModel.swift; sourceTree = "<group>"; };
+		EA2E180F25D3D08C00A73EB5 /* VehicleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleProtocol.swift; sourceTree = "<group>"; };
+		EA2E181225D3D15000A73EB5 /* ValuationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationModel.swift; sourceTree = "<group>"; };
+		EA2E181525D3D18400A73EB5 /* ValuationProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationProtocol.swift; sourceTree = "<group>"; };
+		EA2E181925D3D4B300A73EB5 /* ValuationListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationListViewController.swift; sourceTree = "<group>"; };
+		EA2E181C25D3DE4400A73EB5 /* ValuationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationDetailViewController.swift; sourceTree = "<group>"; };
+		EA2E181F25D3E4C700A73EB5 /* ValuationListDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValuationListDelegate.swift; sourceTree = "<group>"; };
+		EA2E182625D3F04500A73EB5 /* AddValuationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddValuationViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA2E17EE25D3C63800A73EB5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2E17E825D3C63800A73EB5 = {
+			isa = PBXGroup;
+			children = (
+				EA2E17F325D3C63800A73EB5 /* Cardealer */,
+				EA2E17F225D3C63800A73EB5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA2E17F225D3C63800A73EB5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E17F125D3C63800A73EB5 /* Cardealer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA2E17F325D3C63800A73EB5 /* Cardealer */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E180B25D3C82500A73EB5 /* Models */,
+				EA2E180A25D3C81B00A73EB5 /* Protocols */,
+				EA2E180925D3C81100A73EB5 /* ViewControllers */,
+				EA2E17F425D3C63800A73EB5 /* AppDelegate.swift */,
+				EA2E17F625D3C63800A73EB5 /* SceneDelegate.swift */,
+				EA2E17FA25D3C63800A73EB5 /* Main.storyboard */,
+				EA2E17FD25D3C63A00A73EB5 /* Assets.xcassets */,
+				EA2E17FF25D3C63A00A73EB5 /* LaunchScreen.storyboard */,
+				EA2E180225D3C63A00A73EB5 /* Info.plist */,
+			);
+			path = Cardealer;
+			sourceTree = "<group>";
+		};
+		EA2E180925D3C81100A73EB5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E181925D3D4B300A73EB5 /* ValuationListViewController.swift */,
+				EA2E181C25D3DE4400A73EB5 /* ValuationDetailViewController.swift */,
+				EA2E182625D3F04500A73EB5 /* AddValuationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EA2E180A25D3C81B00A73EB5 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E180F25D3D08C00A73EB5 /* VehicleProtocol.swift */,
+				EA2E181525D3D18400A73EB5 /* ValuationProtocol.swift */,
+				EA2E181F25D3E4C700A73EB5 /* ValuationListDelegate.swift */,
+				EA18A29325DBDAF70034283C /* commentProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EA2E180B25D3C82500A73EB5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EA2E180C25D3D03F00A73EB5 /* VehicleModel.swift */,
+				EA2E181225D3D15000A73EB5 /* ValuationModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA2E17F025D3C63800A73EB5 /* Cardealer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA2E180525D3C63A00A73EB5 /* Build configuration list for PBXNativeTarget "Cardealer" */;
+			buildPhases = (
+				EA2E17ED25D3C63800A73EB5 /* Sources */,
+				EA2E17EE25D3C63800A73EB5 /* Frameworks */,
+				EA2E17EF25D3C63800A73EB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cardealer;
+			productName = Cardealer;
+			productReference = EA2E17F125D3C63800A73EB5 /* Cardealer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA2E17E925D3C63800A73EB5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EA2E17F025D3C63800A73EB5 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = EA2E17EC25D3C63800A73EB5 /* Build configuration list for PBXProject "Cardealer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA2E17E825D3C63800A73EB5;
+			productRefGroup = EA2E17F225D3C63800A73EB5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA2E17F025D3C63800A73EB5 /* Cardealer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA2E17EF25D3C63800A73EB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2E180125D3C63A00A73EB5 /* LaunchScreen.storyboard in Resources */,
+				EA2E17FE25D3C63A00A73EB5 /* Assets.xcassets in Resources */,
+				EA2E17FC25D3C63800A73EB5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA2E17ED25D3C63800A73EB5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA2E181625D3D18400A73EB5 /* ValuationProtocol.swift in Sources */,
+				EA2E17F525D3C63800A73EB5 /* AppDelegate.swift in Sources */,
+				EA2E180D25D3D03F00A73EB5 /* VehicleModel.swift in Sources */,
+				EA18A29425DBDAF70034283C /* commentProtocol.swift in Sources */,
+				EA2E181D25D3DE4400A73EB5 /* ValuationDetailViewController.swift in Sources */,
+				EA2E17F725D3C63800A73EB5 /* SceneDelegate.swift in Sources */,
+				EA2E181A25D3D4B300A73EB5 /* ValuationListViewController.swift in Sources */,
+				EA2E181025D3D08C00A73EB5 /* VehicleProtocol.swift in Sources */,
+				EA2E182025D3E4C700A73EB5 /* ValuationListDelegate.swift in Sources */,
+				EA2E182725D3F04500A73EB5 /* AddValuationViewController.swift in Sources */,
+				EA2E181325D3D15000A73EB5 /* ValuationModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA2E17FA25D3C63800A73EB5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2E17FB25D3C63800A73EB5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA2E17FF25D3C63A00A73EB5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA2E180025D3C63A00A73EB5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA2E180325D3C63A00A73EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA2E180425D3C63A00A73EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA2E180625D3C63A00A73EB5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3SJT459K8;
+				INFOPLIST_FILE = Cardealer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softtech-dev.Cardealer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA2E180725D3C63A00A73EB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = C3SJT459K8;
+				INFOPLIST_FILE = Cardealer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.softtech-dev.Cardealer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA2E17EC25D3C63800A73EB5 /* Build configuration list for PBXProject "Cardealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2E180325D3C63A00A73EB5 /* Debug */,
+				EA2E180425D3C63A00A73EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA2E180525D3C63A00A73EB5 /* Build configuration list for PBXNativeTarget "Cardealer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA2E180625D3C63A00A73EB5 /* Debug */,
+				EA2E180725D3C63A00A73EB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA2E17E925D3C63800A73EB5 /* Project object */;
+}
