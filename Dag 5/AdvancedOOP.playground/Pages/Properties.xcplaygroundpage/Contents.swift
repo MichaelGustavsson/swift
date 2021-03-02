@@ -10,10 +10,17 @@ class BankAccount {
     private var _user: User
     var accountNo: String
     
+    let name: String
+    
     //Property
     var user: User {
         get {
+            //logic to fetch the user
             return _user
+        }
+        set(value) {
+            //logic before setting the user
+            _user = value
         }
     }
     

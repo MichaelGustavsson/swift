@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D80" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Manufacturer" representedClassName=".Manufacturer" syncable="YES">
+        <attribute name="country" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <relationship name="models" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="VehicleModels" inverseName="make" inverseEntity="VehicleModels"/>
+    </entity>
+    <entity name="VehicleModels" representedClassName=".VehicleModels" syncable="YES">
+        <attribute name="name" attributeType="String"/>
+        <relationship name="make" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Manufacturer" inverseName="models" inverseEntity="Manufacturer"/>
+    </entity>
+    <elements>
+        <element name="Manufacturer" positionX="-342.385986328125" positionY="-5.156982421875" width="128" height="58"/>
+        <element name="VehicleModels" positionX="-54" positionY="9" width="128" height="58"/>
+    </elements>
+</model>
